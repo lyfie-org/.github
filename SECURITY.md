@@ -2,4 +2,4 @@
 
 ## Reporting a Vulnerability
 
-Please report security issues to `lyfieapp@gmail.com`
+Please report security issues to `lyfie.org@gmail.com`
