@@ -1,60 +1,69 @@
 <div align="center">
-  <img src="../public/luthor-logo-horizontal.png" alt="Luthor" width="420" />
-  <p><strong>TypeScript-first rich text editor ecosystem for React, built on Lexical.</strong></p>
-  <p>:rocket: Production-ready presets + :jigsaw: headless extension runtime + :unlock: MIT license</p>
+  <img src="https://raw.githubusercontent.com/lyfie-org/.github/main/public/lyfie-logo.png" alt="Lyfie" width="96" />
+  <h1>Lyfie</h1>
+  <p><strong>Free, open software that outpaces the horizon.</strong><br/>
+  Apps and libraries that are open source, pleasant to use, and yours to keep.</p>
+
+  <p>
+    <a href="https://www.lyfie.org"><strong>lyfie.org</strong></a> ·
+    <a href="https://www.lyfie.org/manifesto/">Manifesto</a> ·
+    <a href="https://www.lyfie.org/changelog/">Changelog</a> ·
+    <a href="https://discord.gg/KQNsjGAUUz">Discord</a> ·
+    <a href="https://github.com/sponsors/lyfie-org">Sponsor</a>
+  </p>
 </div>
 
-<div align="center">
+<br/>
 
-[![Project Status](https://img.shields.io/badge/status-active%20development-orange?style=for-the-badge)](https://github.com/lyfie-app/luthor)
-[![Publish Packages](https://img.shields.io/github/actions/workflow/status/lyfie-app/luthor/publish-packages.yml?branch=main&label=publish&style=for-the-badge)](https://github.com/lyfie-app/luthor/actions/workflows/publish-packages.yml)
-[![GitHub Release](https://img.shields.io/github/v/release/lyfie-app/luthor?style=for-the-badge)](https://github.com/lyfie-app/luthor/releases)
+## Projects
 
-</div>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/lyfie-org/papyra">📝 Papyra</a></h3>
+      <p>A calm, self-hosted home for your notes. Every note is a plain Markdown file in a folder you own, with live editing together, a private vault, version history and a journal.</p>
+      <p><sub>Stable · GPL-3.0 · one Docker container</sub></p>
+      <p>
+        <a href="https://papyra.app/demo">Demo</a> ·
+        <a href="https://papyra.app/docs">Docs</a> ·
+        <a href="https://github.com/lyfie-org/papyra">Source</a>
+      </p>
+      <a href="https://github.com/lyfie-org/papyra/releases"><img alt="Papyra release" src="https://img.shields.io/github/v/release/lyfie-org/papyra?color=7aaa8a&label=release" /></a>
+      <a href="https://github.com/lyfie-org/papyra/stargazers"><img alt="Papyra stars" src="https://img.shields.io/github/stars/lyfie-org/papyra?color=7aaa8a" /></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/lyfie-org/luthor">✍️ Luthor</a></h3>
+      <p>A TypeScript-first rich-text editor for React, built on Lexical. Start with a polished preset, or go headless and build your own interface. Papyra's editor is Luthor.</p>
+      <p><sub>Stable · MIT · <code>npm install @lyfie/luthor</code></sub></p>
+      <p>
+        <a href="https://www.luthor.fyi/demo">Demo</a> ·
+        <a href="https://www.luthor.fyi/docs/getting-started">Docs</a> ·
+        <a href="https://github.com/lyfie-org/luthor">Source</a>
+      </p>
+      <a href="https://www.npmjs.com/package/@lyfie/luthor"><img alt="Luthor on npm" src="https://img.shields.io/npm/v/@lyfie/luthor?color=0a84ff&label=npm" /></a>
+      <a href="https://github.com/lyfie-org/luthor/stargazers"><img alt="Luthor stars" src="https://img.shields.io/github/stars/lyfie-org/luthor?color=0a84ff" /></a>
+    </td>
+  </tr>
+</table>
 
+## In the pipeline
 
-## :sparkles: Why Luthor
+Not public yet, and no dates. Both are meant to follow the rules below. News lands in the [changelog](https://www.lyfie.org/changelog/) and on [Discord](https://discord.gg/KQNsjGAUUz).
 
-Luthor is an open-source rich text editor ecosystem designed for teams that want modern DX without editor lock-in.
+- **Sweeprr:** tidies a media library for you. It retires what has been watched or gone stale, by rules you set, across Jellyfin, Radarr and Sonarr.
+- **Rokada:** a private finance app. Your money, on your own machine.
 
-- :package: **Two-package model**: start fast with presets, go deep with headless composition
-- :shield: **TypeScript-first APIs**: safe command/state integrations
-- :zap: **Lexical-powered**: modern performance and extensibility
-- :art: **UI freedom**: build custom editor experiences when product requirements evolve
-- :package: **ESM-first distribution**: optimized for modern React bundling
+## How we work
 
-## :package: Packages
+- **No paywalls.** Every feature is for everyone.
+- **No harvesting.** No tracking or analytics, and nothing about you is sent to us.
+- **No lock-in.** Open formats and plain files, built to run on your own hardware.
+- **Honest labels.** Stable means stable; beta means keep your backups.
 
-| Package | Purpose | Best for | npm |
-| --- | --- | --- | --- |
-| `@lyfie/luthor` | Plug-and-play editor presets + polished UI | Shipping quickly with minimal setup | [npm](https://www.npmjs.com/package/@lyfie/luthor) |
-| `@lyfie/luthor-headless` | Headless extension runtime and typed editor system | Full UI control and custom workflows | [npm](https://www.npmjs.com/package/@lyfie/luthor-headless) |
+The longer version is in the [manifesto](https://www.lyfie.org/manifesto/).
 
-## :rocket: Quick Start
+## Join in
 
-```bash
-pnpm add @lyfie/luthor react react-dom
-```
+Bug reports, docs fixes and ideas all count. Look for a [good first issue](https://github.com/search?q=org%3Alyfie-org+label%3A%22good+first+issue%22+state%3Aopen&type=issues), say hello on [Discord](https://discord.gg/KQNsjGAUUz), or read [how to contribute](https://www.lyfie.org/contribute/).
 
-```tsx
-import { ExtensiveEditor } from "@lyfie/luthor";
-import "@lyfie/luthor/styles.css";
-
-export function App() {
-  return <ExtensiveEditor placeholder="Start writing..." />;
-}
-```
-
-Need full control?
-
-```bash
-pnpm add @lyfie/luthor-headless lexical @lexical/code @lexical/link @lexical/list @lexical/markdown @lexical/react @lexical/rich-text @lexical/selection @lexical/table @lexical/utils react react-dom
-```
-
-## :globe_with_meridians: Product Links
-
-- Website: [luthor.fyi](https://www.luthor.fyi)
-- Docs home: [luthor.fyi/docs/getting-started](https://www.luthor.fyi/docs/getting-started)
-- Live demo: [luthor.fyi/demo](https://www.luthor.fyi/demo)
-- GitHub: [lyfie-app/luthor](https://github.com/lyfie-app/luthor)
-- Sponsor: [github.com/sponsors/lyfie-app](https://github.com/sponsors/lyfie-app)
+<sub>Lyfie's projects are vibe-coded: designed, tested and steered by a person, with AI coding assistants writing most of the code.</sub>
