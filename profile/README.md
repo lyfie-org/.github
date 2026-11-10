@@ -51,7 +51,7 @@
 Not public yet, and no dates. Both are meant to follow the rules below. News lands in the [changelog](https://www.lyfie.org/changelog/) and on [Discord](https://discord.gg/KQNsjGAUUz).
 
 - **Sweeprr:** tidies a media library for you. It retires what has been watched or gone stale, by rules you set, across Jellyfin, Radarr and Sonarr.
-- **Rokada:** a private finance app. Your money, on your own machine.
+- **Dabu:** a private finance app. Your money, on your own machine.
 
 ## How we work
 
